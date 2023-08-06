@@ -20,10 +20,53 @@ let Job2 = "Teacher";
 
 console.log(myFirstJob);*/
 
-let javaScriptIsFun = true;
+/*let javaScriptIsFun = true;
 console.log(javaScriptIsFun);
 
-console.log(typeof true);
+//console.log(typeof true);
 console.log(typeof javaScriptIsFun);
-console.log(typeof 23);
-console.log(typeof "Jonas");
+//console.log(typeof 23);
+//console.log(typeof "Jonas");
+
+javaScriptIsFun = "Yes";
+console.log(typeof javaScriptIsFun);
+
+let year;
+console.log(year);
+console.log(typeof year);
+
+year = 1991;
+console.log(typeof year);
+*/
+
+/*let age = 30;
+age = 31;
+const birthyYear = 1991;
+birthyear = 1990;*/
+
+//Math Operators
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSara = now - 2020;
+console.log(ageJonas, ageSara);
+console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
+// 2**3 means 2 to the power of 3 = 2*2*2
+console.log(ageSara * 2, ageSara / 2 ** 3);
+
+const firstName = "Jonas";
+const lastName = "Schemedtmann";
+console.log(firstName + " " + lastName);
+
+//Assignment operator
+let x = 10 + 5;
+x += 10; //x =x+10=25
+x *= 4; // x =x*4=100
+x++; // x= x+1=101
+x--; // x=x-1
+x--;
+console.log(x);
+
+//Comparison operators
+console.log(ageJonas > ageSara);
+console.log(ageSara >= 18);
+console.log(now - 1991 > now - 2018);
